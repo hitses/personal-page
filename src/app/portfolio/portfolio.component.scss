@@ -1,0 +1,15 @@
+*{
+  color: white;
+}
+
+p{
+  width: 33.5%;
+  margin-left: 16.5%;
+  margin-top: 5vw;
+}
+
+@media (max-width: 425px){
+  p{
+    font-size: 0.7em;
+  }
+}
