@@ -1,0 +1,27 @@
+nav{
+  margin-top: 13px;
+  margin-right: 8.5%;
+  padding: 6px;
+  display: flex;
+  justify-content: flex-end;
+  a{
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+  }
+  a:hover{
+    color: #b9721c;
+    text-decoration-line: underline;
+  }
+  .active{
+    color: #b9721c;
+    text-decoration-line: underline;
+    cursor: default;
+  }
+}
+
+@media (max-width: 425px){
+  nav{
+    font-size: 0.7em;
+  }
+}
