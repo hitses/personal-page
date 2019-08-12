@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Use this project
 
-[Demo](https://hitses.github.io/personal-page)
+[Demo](https://hitses.github.io/personal-page/)
 
 ## Development server
 
