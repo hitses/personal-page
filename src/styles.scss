@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face{
+  font-family: Fira;
+  src: url(assets/FiraCode-Light.otf);
+}
+
+*{
+  font-family: Fira;
+}
+
+body{
+  background-color: black;
+}
