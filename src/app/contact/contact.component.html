@@ -1,12 +1,25 @@
-<form action="mailto:jerogassan@gmail.com" method="post" enctype="text/plain">
-  <span>Name:</span><br>
-  <input type="text" name="name"><br>
-  <span>E-mail:</span><br>
-  <input type="text" name="mail"><br>
-  <span>Subject:</span><br>
-  <input type="text" name="subject"><br>
-  <span>Message:</span><br>
-  <input type="text" name="message" size="50"><br><br>
-  <button type="submit">Submit</button>
-  <button type="reset">Clear</button>
+<form class="gform" action="https://script.google.com/macros/s/AKfycbx0jYEHCAUtKxbPH_N86-6domhDT05bvPrFwD9_BX-Huy1ANOA/exec" method="POST">
+  <div class="form-elements">
+    <fieldset>
+      <label for="name"><span>Name:</span></label><br>
+      <input id="name" type="text" name="name"><br>
+    </fieldset>
+    <fieldset>
+      <label for="mail"><span>E-mail:</span></label><br>
+      <input id="mail" type="text" name="mail"><br>
+    </fieldset>
+    <fieldset>
+      <label for="subject"><span>Subject:</span></label><br>
+      <input id="subject" type="text" name="subject"><br>
+    </fieldset>
+    <fieldset>
+      <label for="message"><span>Message:</span></label><br>
+      <input id="message" type="text" name="message" size="50"><br><br>
+    </fieldset>
+    <button type="submit">Submit</button>
+    <button type="reset">Clear</button>
+  </div>
+  <div style="display:none" class="thankyou_message">
+    <h2><em>Thanks</em> for contacting me! I will get back to you soon!</h2>
+  </div>
 </form>
