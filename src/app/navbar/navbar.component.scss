@@ -3,7 +3,7 @@ nav{
   margin-right: 8.5%;
   padding: 6px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   a{
     color: white;
     text-decoration: none;
@@ -20,7 +20,7 @@ nav{
   }
 }
 
-@media (max-width: 425px){
+@media (max-width: 470px){
   nav{
     font-size: 0.7em;
   }

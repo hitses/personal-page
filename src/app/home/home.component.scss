@@ -2,18 +2,39 @@
   color: white;
 }
 
-div{
-  width: 50%;
-  margin-top: 12em;
-  margin-left: 16.5%;
+img{
+  position: fixed;
+  width: 280px;
+  bottom: 0;
 }
 
-@media (max-width: 425px){
+.text{
+  position: fixed;
+  margin-left: 400px;
+  margin-top: 250px;
+}
+
+@media (max-width: 768px){
   h1{
     font-size: 1em;
   }
-
   p{
-    font-size: 0.7em;
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 700px){
+  img{
+    position: relative;
+    width: 100%;
+  }
+  .text{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .body{
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
